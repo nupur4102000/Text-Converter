@@ -44,7 +44,7 @@ export default function Input()
 </div>
 <div className='container my-3'>
 <h2>Your Text Details</h2>
-<p>{text.split(" ").filter((element)=>{return element.length!=0;}).length} Words and {text.length} Characters</p>
+<p>{text.split(" ").filter((element)=>{return element.length!==0;}).length} Words and {text.length} Characters</p>
 
 </div>
 </>
